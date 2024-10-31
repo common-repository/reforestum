@@ -1,0 +1,426 @@
+# Copyright (C) 2020 Reforestum
+# This file is distributed under the same license as the Reforestum - Carbon neutral products at checkout plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Reforestum - Carbon neutral products at checkout 1.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/reforestum\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-12-22T16:48:20+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: reforestum\n"
+
+#. Plugin Name of the plugin
+msgid "Reforestum - Carbon neutral products at checkout"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://reforestum.com/wp-woocommerce-plugin/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Turn your e-shop into a sustainable business. Reforestum’s plugin allows you to offer carbon neutral products. Decide whether you or your customers will pay for the offset and let them pick reforestation or conservation projects around the world."
+msgstr ""
+
+#. Author of the plugin
+#: includes/class.reforestum-settings.php:25
+msgid "Reforestum"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://reforestum.com"
+msgstr ""
+
+#: includes/class.reforestum-admin.php:105
+msgid "Need at least 1 forest selected for project constraints"
+msgstr ""
+
+#: includes/class.reforestum-admin.php:151
+msgid "<strong>Reforestum</strong> plugin requires WooCommerce to be installed & activated to work."
+msgstr ""
+
+#: includes/class.reforestum-admin.php:177
+msgid "<strong>Reforestum</strong> plugin requires at least one sales contract to work, contact Reforestum to get your sales contract."
+msgstr ""
+
+#: includes/class.reforestum-api.php:57
+#: includes/class.reforestum-api.php:92
+#: includes/class.reforestum-api.php:115
+#: includes/class.reforestum-api.php:154
+#: includes/class.reforestum-api.php:196
+msgid "Something went wrong: %s"
+msgstr ""
+
+#: includes/class.reforestum-api.php:330
+#: includes/class.reforestum-api.php:336
+msgid "Use default plugin general settings"
+msgstr ""
+
+#: includes/class.reforestum-api.php:338
+msgid "Select sales contract"
+msgstr ""
+
+#: includes/class.reforestum-product-cat.php:68
+msgid "Reforestum CO₂ offsetting options"
+msgstr ""
+
+#: includes/class.reforestum-product-cat.php:70
+msgid ""
+"These settings will affect all products assigned to this category and therefore, if set, will override the general settings configured for the plugin. \n"
+"\t\tNote that in case a product has multiple categories, the configuration of the first category found will be used."
+msgstr ""
+
+#: includes/class.reforestum-product-cat.php:75
+#: includes/class.reforestum-product.php:65
+#: includes/class.reforestum-product.php:193
+msgid "(End Customer)"
+msgstr ""
+
+#: includes/class.reforestum-product-cat.php:75
+#: includes/class.reforestum-product.php:65
+#: includes/class.reforestum-product.php:193
+msgid "(Merchant)"
+msgstr ""
+
+#: includes/class.reforestum-product-cat.php:80
+#: includes/class.reforestum-product.php:72
+#: includes/class.reforestum-product.php:200
+#: includes/class.reforestum-settings.php:167
+msgid "Who pays for Carbon Offset"
+msgstr ""
+
+#: includes/class.reforestum-product-cat.php:82
+msgid "Use plugin settings %s"
+msgstr ""
+
+#: includes/class.reforestum-product-cat.php:83
+#: includes/class.reforestum-product.php:75
+#: includes/class.reforestum-product.php:203
+#: includes/class.reforestum-settings.php:172
+#: includes/class.reforestum-woocommerce.php:697
+msgid "Merchant"
+msgstr ""
+
+#: includes/class.reforestum-product-cat.php:84
+#: includes/class.reforestum-product.php:76
+#: includes/class.reforestum-product.php:204
+#: includes/class.reforestum-settings.php:173
+msgid "End Customer"
+msgstr ""
+
+#: includes/class.reforestum-product-cat.php:93
+#: includes/class.reforestum-product.php:84
+#: includes/class.reforestum-product.php:214
+msgid "Product CO₂ amount"
+msgstr ""
+
+#: includes/class.reforestum-product-cat.php:94
+#: includes/class.reforestum-product-cat.php:110
+#: includes/class.reforestum-product.php:85
+#: includes/class.reforestum-product.php:101
+#: includes/class.reforestum-product.php:215
+#: includes/class.reforestum-product.php:233
+msgid "Amount in kilograms"
+msgstr ""
+
+#: includes/class.reforestum-product-cat.php:109
+#: includes/class.reforestum-product.php:100
+#: includes/class.reforestum-product.php:232
+msgid "Shipping CO₂ amount"
+msgstr ""
+
+#: includes/class.reforestum-product-cat.php:125
+#: includes/class.reforestum-product.php:116
+#: includes/class.reforestum-settings.php:178
+msgid "Project choice restrictions"
+msgstr ""
+
+#: includes/class.reforestum-product-cat.php:126
+#: includes/class.reforestum-product.php:117
+#: includes/class.reforestum-product.php:250
+#: includes/class.reforestum-settings.php:179
+msgid "Activate project constraints"
+msgstr ""
+
+#: includes/class.reforestum-product-cat.php:135
+#: includes/class.reforestum-product.php:125
+#: includes/class.reforestum-product.php:260
+#: includes/class.reforestum-settings.php:184
+msgid "Select forest(s)"
+msgstr ""
+
+#: includes/class.reforestum-product-cat.php:136
+#: includes/class.reforestum-product.php:126
+#: includes/class.reforestum-product.php:261
+msgid "Select forest(s) that will be available for this product"
+msgstr ""
+
+#: includes/class.reforestum-product-cat.php:146
+#: includes/class.reforestum-product.php:135
+#: includes/class.reforestum-product.php:272
+msgid "Sales Contract specifically applied for this category (if any)"
+msgstr ""
+
+#: includes/class.reforestum-product.php:33
+msgid "CO₂ offseting options"
+msgstr ""
+
+#: includes/class.reforestum-product.php:74
+msgid "Use inherited value from category or general settings"
+msgstr ""
+
+#: includes/class.reforestum-product.php:87
+#: includes/class.reforestum-product.php:103
+#: includes/class.reforestum-product.php:217
+#: includes/class.reforestum-product.php:235
+msgid "Leave blank to use inherited value from category or general settings"
+msgstr ""
+
+#: includes/class.reforestum-product.php:188
+msgid "Reforestum CO₂ offseting options"
+msgstr ""
+
+#: includes/class.reforestum-product.php:202
+msgid "Use category or plugin settings"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:63
+msgid "API Credentials"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:65
+msgid "Enter your API username and password to enable the Reforestum's API service. The connection test will be performed after saving these settings.<br />More instructions on how to set your account <a href=\"https://api.reforestum.com/faq\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: includes/class.reforestum-settings.php:69
+msgid "Username"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:74
+msgid "Password"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:77
+msgid "Connection successful"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:77
+msgid "Connection failed"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:80
+msgid "Sandbox mode"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:81
+msgid "Enable Sandbox Mode"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:82
+msgid "While sandbox is enabled, all offsetting transactions will be simulated"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:96
+msgid "Shipping Settings"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:99
+msgid ""
+"\n"
+"\t\t\t\t\t\t\tSome settings regarding the shipping aspect of the process. When the method is set to dynamic, an attempt at calculting the distance between seller and buyer will be performed. If it is unsuccesful, the method will switch to None.\n"
+"\t\t\t\t\t\t\tWhen using the dynamic method, we recommend that you make sure your shop address is as precise as it can be and that you check the lat/lng coordinates with the \"Test the connection\" button.\n"
+"\t\t\t\t\t\t"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:106
+msgid "Shipping offset method"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:107
+msgid "Select what is the shipping offset method in checkout page"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:111
+msgid "None - No shipping offset"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:112
+msgid "Fixed - Based on a flat rate on a per-product basis"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:113
+msgid "Dynamic - Calculation based on the shipping distance"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:118
+msgid "Shipping footprint per km"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:120
+msgid "Only used if the shipping offset method is set to dynamic<br>To be set in kg"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:124
+msgid "Openrouteservice api key"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:126
+msgid "Only used if the shipping offset method is set to dynamic<br>Get a free API key <a href=\"https://openrouteservice.org/dev/#/signup\" target=\"_blank\">here</a>. The Openrouteservice API is used to get coordinates from a postal address<br><button class=\"button button-secondary\" id=\"openrouteservice-test\">Test the connection</button><div id=\"openrouteservice-test-response\" data-success=\"Coordinates have been found for your shop. Longitude LON and latitude LAT. [gmaps_link]Check on google maps[/gmaps_link]\"></div>"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:140
+msgid "General Settings"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:143
+msgid "Note these general settings are taken as default options and that some of them can be overridden at the product category level and/or product level configurations."
+msgstr ""
+
+#: includes/class.reforestum-settings.php:146
+msgid "Carbon offset display"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:147
+msgid "Display carbon footprint in product page"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:154
+msgid "Display carbon footprint in cart page"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:161
+msgid "Display carbon footprint and offset in checkout page"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:168
+msgid "Select who pays for the offset. If it's paid by the end customer, the option will be offered to them to calculate the price of the CO2 offset and automatically add it to the final price in the checkout process."
+msgstr ""
+
+#: includes/class.reforestum-settings.php:185
+msgid "Select forests that will be available for your customers when project restriction is enabled."
+msgstr ""
+
+#: includes/class.reforestum-settings.php:192
+msgid "Default Sales Contract"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:193
+msgid "Select the default Sales Contract. This setting can be overridden at the category and product level."
+msgstr ""
+
+#: includes/class.reforestum-settings.php:229
+msgid "Sales contract attached to your Reforestum’s account"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:235
+msgid "Contract Description"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:236
+msgid "Key"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:237
+msgid "Contract Type"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:238
+msgid "Available forest(s)"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:239
+msgid "Default Value"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:240
+msgid "Credit"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:250
+msgid "Predefined project and/or amount selected"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:252
+msgid "Variable Amount set manually by end customer"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:262
+msgid "Any"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:276
+msgid "Free amount"
+msgstr ""
+
+#: includes/class.reforestum-settings.php:291
+msgid "You don´t have any sales contract defined yet. More instructions on how to set your account <a href=\"https://api.reforestum.com/faq\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: includes/class.reforestum-woocommerce.php:51
+msgid "CO₂ amount for each of this product"
+msgstr ""
+
+#: includes/class.reforestum-woocommerce.php:51
+#: includes/class.reforestum-woocommerce.php:137
+msgid "CO₂ footprint"
+msgstr ""
+
+#: includes/class.reforestum-woocommerce.php:135
+#: includes/class.reforestum-woocommerce.php:156
+msgid "Carbon footprint"
+msgstr ""
+
+#: includes/class.reforestum-woocommerce.php:137
+msgid "CO₂ footprint amount = %s x%s"
+msgstr ""
+
+#: includes/class.reforestum-woocommerce.php:242
+#: includes/class.reforestum-woocommerce.php:244
+msgid "CO₂ offset fee"
+msgstr ""
+
+#: includes/class.reforestum-woocommerce.php:248
+msgid "CO₂ offset fee paid by merchant"
+msgstr ""
+
+#: includes/class.reforestum-woocommerce.php:279
+#: includes/class.reforestum-woocommerce.php:287
+msgid "%s CO₂"
+msgstr ""
+
+#: includes/class.reforestum-woocommerce.php:296
+msgid "Shipping CO₂ footprint"
+msgstr ""
+
+#: includes/class.reforestum-woocommerce.php:356
+msgid "Select your forest"
+msgstr ""
+
+#: includes/class.reforestum-woocommerce.php:361
+#: includes/class.reforestum-woocommerce.php:363
+msgid "No offset at all"
+msgstr ""
+
+#: includes/class.reforestum-woocommerce.php:365
+msgid "You will not be charged for the carbon offset"
+msgstr ""
+
+#: includes/class.reforestum-woocommerce.php:366
+msgid "Free"
+msgstr ""
+
+#: includes/class.reforestum-woocommerce.php:418
+msgid "Offset Price"
+msgstr ""
+
+#: includes/class.reforestum-woocommerce.php:512
+msgid "Offsets sandbox mode is enabled"
+msgstr ""
+
+#: includes/class.reforestum-woocommerce.php:697
+msgid "Customer"
+msgstr ""

@@ -1,0 +1,137 @@
+/* CO2 Stats */
+.reforestum-co2 {
+	margin-top: 5px;
+	padding-left: 24px;
+	background: url("../images/icon-carbon-red.png") no-repeat center left transparent;
+	background-size: auto 20px;
+	font-size: 13px;
+	color: #fa675c;
+}
+
+.single-product .reforestum-co2 {
+	margin-top: 15px;
+}
+
+/* Tooltip */
+.reforestum-tooltip {
+	position: relative;
+}
+
+.reforestum-tooltip::before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid rgba(0, 0, 0, 0.8);
+	bottom: -10px;
+	left: 20px;
+	margin-left: -5px;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.3s;
+}
+
+.reforestum-tooltip::after {
+	content: attr(data-tooltip);
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	padding: 8px 6px;
+	top: calc(100% + 10px);
+	text-align: center;
+	left: 0;
+	font-size: 12px;
+	font-weight: 400;
+	z-index: 99;
+	border-radius: 4px;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s;
+}
+
+.reforestum-tooltip:hover:before,
+.reforestum-tooltip:hover:after {
+	visibility: visible;
+	opacity: 1;
+}
+
+/* Select forests in checkout */
+.reforestum-select-forests td {
+	padding: 0;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+}
+
+.reforestum-select-forests__title {
+	padding-left: 20px;
+	padding-bottom: 16px;
+	font-weight: 600;
+}
+
+.reforestum-select-forests__total {
+	padding: 0 20px 16px;
+}
+
+.reforestum-select-forests__total>div {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+/* Forest dropdown */
+.reforestum-forest>div {
+	display: block;
+	border-radius: 8px;
+	padding: 16px;
+	transition: all .3s;
+	cursor: pointer;
+}
+
+.reforestum-forest>div:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.reforestum-forest input[type="radio"] {
+	position: absolute;
+	left: -9999999px;
+}
+
+.reforestum-forest input[type="radio"]:checked+div {
+	background: rgba(55, 184, 119, 0.15);
+}
+
+.reforestum-forest__img {
+	width: 80px;
+	height: 80px;
+	background-size: cover;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 8px;
+	margin-right: 16px;
+}
+
+.reforestum-forest__detail {
+	float: left;
+	color: #304351;
+	font-size: 1rem;
+}
+
+.reforestum-forest__name {
+	margin-bottom: 8px;
+}
+
+.reforestum-forest__price span {
+	display: block;
+	font-size: 0.65rem;
+	color: #9aabb8;
+	text-transform: uppercase;
+	line-height: 1;
+}
+
+dt.variation-Carbonfootprint {
+	display: none;
+}
